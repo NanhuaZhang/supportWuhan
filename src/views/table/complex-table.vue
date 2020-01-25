@@ -248,7 +248,7 @@ export default {
         console.log(response)
         this.list = response.results.details
         this.total = response.results.transaction_num
-        this.total_amount = response.results.amount
+        this.total_amount = response.results.amount.toFixed(2)
         // console.log(response)
         this.listLoading = false
       })
