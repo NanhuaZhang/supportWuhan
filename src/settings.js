@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Airpay Country Admin',
+  title: 'Donation Platform',
 
   /**
    * @type {boolean} true | false
